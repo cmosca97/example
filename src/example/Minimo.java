@@ -3,7 +3,7 @@ package example;
 public class Minimo {
     public static int min(int[] numbers) {
         int result = numbers[0];
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 1; i < numbers.length; i++) {
             if (result > numbers[i]) {
                 result = numbers[i];
             }
